@@ -28,6 +28,55 @@
         hr {
             margin: 40px 0;
         }
+      .timeline {
+        border-left: 2px solid #ccc;
+        margin-left: 40px;
+        padding-left: 20px;
+       }
+    
+      .entry {
+        position: relative;
+        margin-bottom: 50px;
+       }
+    
+      .entry::before {
+        content: '';
+        position: absolute;
+        left: -32px;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        background-color: #fff;
+        border: 2px solid #aaa;
+        border-radius: 50%;
+       }
+    
+      .date {
+        font-size: 14px;
+        color: #888;
+        position: absolute;
+        left: -100px;
+        width: 80px;
+        text-align: right;
+        top: 0;
+       }
+    
+      .logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        vertical-align: middle;
+        margin-right: 10px;
+       }
+    
+      a {
+        color: #0645ad;
+        text-decoration: none;
+       }
+    
+      a:hover {
+        text-decoration: underline;
+       }
     </style>
 </head>
 <body>
@@ -44,6 +93,37 @@
     that teaches the mathematics behind machine learning algorithms. I am very interested in roles that pertain to Machine Learning, Data Science & Quant Finance.</p>
 
     <hr>
+
+    <h2>Experience</h2>
+<div class="timeline">
+
+  <div class="entry">
+    <div class="date">2024</div>
+    <img src="https://karpathy.ai/images/eurekalabs.png" alt="Eureka Labs" class="logo">
+    I started <a href="#">Eureka Labs</a>, a new AI+Education company.<br>
+    Also producing content on <a href="#">YouTube</a>.
+    <ul>
+      <li><a href="#">Deep Dive into LLMs like ChatGPT</a></li>
+      <li><a href="#">How I use LLMs</a></li>
+      <li><a href="#">Intro to Large Language Models</a></li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="date">2023–2024</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png" alt="OpenAI" class="logo">
+    Returned to <a href="#">OpenAI</a>. Helped improve GPT-4 in ChatGPT with a small team.
+  </div>
+
+  <div class="entry">
+    <div class="date">2017–2022</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Tesla" class="logo">
+    Sr. Director of AI at Tesla, working on <a href="#">Tesla Autopilot</a> and <a href="#">Full Self-Driving</a>.
+    <br>See: <a href="#">Tesla AI Day</a>.
+  </div>
+
+</div>
+
 
     <h2>Writing</h2>
     <ul>
